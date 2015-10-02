@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1443618548459" stop="1443618560074">
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1443690838302" stop="1443690847819">
   <name>Using Google</name>
   <title>Using Google</title>
   <test-cases>
-    <test-case start="1443618560007" stop="1443618560007" status="failed">
+    <test-case start="1443690847770" stop="1443690847770" status="failed">
       <name>Searching for a term</name>
       <title>Searching for a term</title>
       <failure>
@@ -11,17 +11,17 @@
         <stack-trace>features/google.feature:7:in `Then I should see results'</stack-trace>
       </failure>
       <steps>
-        <step start="1443618548461" stop="1443618556254" status="passed">
+        <step start="1443690838303" stop="1443690844632" status="passed">
           <name>I am on google.com</name>
           <title>I am on google.com</title>
           <attachments/>
         </step>
-        <step start="1443618556254" stop="1443618556625" status="passed">
+        <step start="1443690844632" stop="1443690844900" status="passed">
           <name>I enter "pizza"</name>
           <title>I enter "pizza"</title>
           <attachments/>
         </step>
-        <step start="1443618556625" stop="1443618560007" status="failed">
+        <step start="1443690844900" stop="1443690847770" status="failed">
           <name>I should see results</name>
           <title>I should see results</title>
           <attachments/>
